@@ -1,7 +1,0 @@
-mkdir -p bin
-
-echo "Compiling gt.cpp ..."
-g++ -Wall -Wextra -o bin/gt src/gt.cpp
-
-echo "Compiling sbt.cpp ..."
-g++ -Wall -Wextra -o bin/sbt src/sbt.cpp

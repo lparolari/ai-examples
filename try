@@ -1,7 +1,0 @@
-echo "Executing generate & test example ..."
-echo "***************"
-bin/./gt
-echo ""
-echo "Executing simple backtracking example ..."
-echo "***************"
-bin/./sbt
