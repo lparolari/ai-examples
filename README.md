@@ -9,17 +9,19 @@ The repository, for now, contains implementations in C++ and Prolog. Many other 
 and maybe others are planned for some examples. 
 
 
-
-
-
 # Table of Contents
 
 The table of contents will help you understand what this repository contains.
 
+* [AI Examples](#ai-examples)
+* [Table of Contents](#table-of-contents)
+* [Usage](#usage)
+* [Artificial Intelligence](#artificial-intelligence)
+   * [CSP problems](#csp-problems)
+      * [Money puzzle](#money-puzzle)
+* [Author](#author)
+* [License](#license)
 
-The main objective is to try implementing solutions to main  AI topics and related problems like
-* CSP
- 	* 
 
 
 # Usage
