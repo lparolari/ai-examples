@@ -1,30 +1,25 @@
 # AI Examples
 
-Here you can find some example solutions for **artificial intelligence** main problems.
+** This repository contains example solutions for artificial intelligence main problems, implemented in different languages.**
 
-The main objective is to try some implementations of AI main problems and explore realted topics.
-See the [table of contents](#table-of-contents) for more details.
-
-The repository, for now, contains implementations in C++ and Prolog. Many other languages like Picat, Java, Haskell 
-and maybe others are planned for some examples. 
+The main objective is to try some implementations in different languages of AI main problems and explore realted topics. 
+This project is done with learning purposed.
+See the [repository organization](#repository-organization) section to understand what this repository is about.
 
 
-# Table of Contents
+## Table of Contents
 
 The table of contents will help you understand what this repository contains.
 
-* [AI Examples](#ai-examples)
-* [Table of Contents](#table-of-contents)
 * [Usage](#usage)
-* [Artificial Intelligence](#artificial-intelligence)
-   * [CSP problems](#csp-problems)
-      * [Money puzzle](#money-puzzle)
+* [Repository Organization](#repository-organization)
+   * [Money puzzle](#money-puzzle)
 * [Author](#author)
 * [License](#license)
 
 
 
-# Usage
+## Usage
 
 Download source code
 ```
@@ -34,29 +29,29 @@ cd ai-examples
 and run the examples.
 
 
-# Artificial Intelligence
+## Repository Organization
 
-## CSP problems
+Sources are organized in the main folder by covered topic. The numbering is for convenience only.
 
 ### Money puzzle 
 
-You can find some C++ implementations in `cpp/money` folder, using below listed techniques.
+You can money puzzle implementations in [001_money](001_money) folder using different techniques and programming languages.
 
-**Generate & test** implementation in *C++*. The `gt` directory contains source code for solving SEND + MORE = MONEY 
-puzzle with *g&t algorithm*. The algorithm generates all the possible solutions one by one from the domain and checks 
-wether the constraints are satisfied. If yes the prints the solutions, otherwise continues searching.
+Implementations:
+ - **C++ with generate & test**. The puzzle is solved with with *g&t algorithm*. The algorithm generates all the possible solutions one by one from the domain and checks wether the constraints are satisfied. If yes the prints the solutions, otherwise continues searching.
 
-**Simple backtracking** implementation in *C++*. The `sbt` directory contains source code for solving SEND + MORE = 
-MONEY puzzle with *simple backtracking*. The simple backtracking algorithm for each assignment to a variable verifies 
-the constraints that can be verified. If this "partial" constraints are satisfied then it continues searhing for the 
-solutions, otherwise tries a new assignement for that variable.
+- **C++ with simple backtracking**. The puzzle si solved with *simple backtracking*. The simple backtracking algorithm for each assignment to a variable verifies the constraints that can be verified. If this "partial" constraints are satisfied then it continues searhing for the solutions, otherwise tries a new assignement for that variable.
+
+- **Prolog with clp(fd)**. The puzzle is solved with Prolog library for constraint logic programmin. 
+
+- **Prolog with backtracking**. The puzzle is solved with Prolog backtracking. Prolog selects values for variables from theri domains and tries the assignments. A set of assignments are a solutions if constraints are satisfied.
 
 
-# Author
+## Author
 
 Luca Parolari <<luca.parolari23@gmail.com>>
 
 
-# License
+## License
 
-The MIT license.
+This project is licensed under MIT license. See [LICENSE](LICENSE.txt) file for more informations.
