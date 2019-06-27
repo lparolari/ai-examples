@@ -58,7 +58,7 @@ Files are self documented, explore them!
 
 ### Graphs
 
-Examples treating **graphs** are located at [003_graphs](003_graps).
+Examples treating **graphs** are located at [003_graphs](003_graphs).
 
 Files are self documented, explore them!
 
