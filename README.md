@@ -1,6 +1,6 @@
 # AI Examples
 
-** This repository contains example solutions for artificial intelligence main problems, implemented in different languages.**
+**This repository contains example solutions for artificial intelligence main problems, implemented in different languages.**
 
 The main objective is to try some implementations in different languages of AI main problems and explore realted topics. 
 This project is done with learning purposed.
@@ -35,16 +35,36 @@ Sources are organized in the main folder by covered topic. The numbering is for 
 
 ### Money puzzle 
 
-You can money puzzle implementations in [001_money](001_money) folder using different techniques and programming languages.
+You can find money puzzle implementations in [001_money](001_money) folder using different techniques and programming languages.
 
 Implementations:
- - **C++ with generate & test**. The puzzle is solved with with *g&t algorithm*. The algorithm generates all the possible solutions one by one from the domain and checks wether the constraints are satisfied. If yes the prints the solutions, otherwise continues searching.
+ - *C++ with generate & test*. The puzzle is solved with with *g&t algorithm*. The algorithm generates all the possible solutions one by one from the domain and checks wether the constraints are satisfied. If yes the prints the solutions, otherwise continues searching.
 
-- **C++ with simple backtracking**. The puzzle si solved with *simple backtracking*. The simple backtracking algorithm for each assignment to a variable verifies the constraints that can be verified. If this "partial" constraints are satisfied then it continues searhing for the solutions, otherwise tries a new assignement for that variable.
+- *C++ with simple backtracking*. The puzzle si solved with *simple backtracking*. The simple backtracking algorithm for each assignment to a variable verifies the constraints that can be verified. If this "partial" constraints are satisfied then it continues searhing for the solutions, otherwise tries a new assignement for that variable.
 
-- **Prolog with clp(fd)**. The puzzle is solved with Prolog library for constraint logic programmin. 
+- *Prolog with clp(fd)*. The puzzle is solved with Prolog library for constraint logic programming.
 
-- **Prolog with backtracking**. The puzzle is solved with Prolog backtracking. Prolog selects values for variables from theri domains and tries the assignments. A set of assignments are a solutions if constraints are satisfied.
+- *Prolog with backtracking*. The puzzle is solved with Prolog backtracking. Prolog selects values for variables from theri domains and tries the assignments. A set of assignments are a solutions if constraints are satisfied.
+
+### Planning
+
+Some **planning** example implementations can be found at [002_planning](002_planning).
+
+The folder contains:
+ - 2 implementations of a labyrinth escape planning problem;
+ - the old *banana* planning problem.
+
+Files are self documented, explore them!
+
+### Graphs
+
+Examples treating **graphs** are located at [003_graphs](003_graps).
+
+Files are self documented, explore them!
+
+### Many other examples
+
+Stay tuned! ;)
 
 
 ## Author
