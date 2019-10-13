@@ -14,6 +14,8 @@ The table of contents will help you understand what this repository contains.
 * [Usage](#usage)
 * [Repository Organization](#repository-organization)
    * [Money puzzle](#money-puzzle)
+   * [Planning](#planning)
+   * [Graphs](#graphs)
 * [Author](#author)
 * [License](#license)
 
